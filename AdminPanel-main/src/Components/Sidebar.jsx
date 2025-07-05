@@ -32,13 +32,10 @@ const Sidebar = () => {
         <ul className="metismenu" id="menu">
           <hr />
           
-          <li className="nav-label first">Navbar</li>
-
-      
-      
+         
       
           <li>
-            <NavLink to="/testimonial" aria-expanded="false">
+            <NavLink to="/ProductList" aria-expanded="false">
               <i className="icon icon-single-04"></i>
               <span className="nav-text">Product List</span>
             </NavLink>
