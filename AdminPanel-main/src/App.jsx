@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./Pages/Main";
 // Pages
 
-import Testimonal from "./Pages/Testimonal";
+import ProductList from "./Pages/ProductList";
 import Welcome from "./Pages/Welcome";
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
          
         
         
-          <Route path="/testimonial" element={<Testimonal />} />
+          <Route path="/ProductList" element={<ProductList />} />
           <Route path="/welcome" element={<Welcome />} />
         
         </Route>
